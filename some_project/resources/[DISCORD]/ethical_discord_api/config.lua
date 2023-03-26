@@ -8,7 +8,7 @@ Config = {
 }
 
 Config.Splash = {
-	Header_IMG = 'https://cdn.discordapp.com/attachments/422597127508852736/853090241246003220/ethical_framework_banner_long.png',
+	Header_IMG = 'https://no-organization-found.com/lib/fivem/ethical_framework_banner_long.png',
 	Enabled = false,
 	Wait = 12,
 	Heading1 = "Welcome to Ethical Framework",

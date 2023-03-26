@@ -1,1 +1,1 @@
-start FXServer.exe +exec server.cfg
+start server/FXServer.exe +exec server.cfg
