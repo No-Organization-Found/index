@@ -1,9 +1,9 @@
-local DISCORD_WEBHOOK = "https://discord.com/api/webhooks/853830895068119092/qbf40LX-oR7fZ0RYuz5g8YETJ25cg6TK3eHKfRcViBtlrCuuI0L5wC5g_FF-BmNL0dBu"
+local DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1089575016984760351/yt85-aA5B7xyQVp_35dnlCBLc4Awf4MNpJBFmd-Or3sXRx8X4r8ree64kUvj_a124vbe"
 
 RegisterServerEvent('send')
 AddEventHandler('send', function(data)
     if(data.url == nil or data.url == "") then
-        data.url = "https://cdn.discordapp.com/attachments/422597127508852736/853831687103053864/EthicalDevs_Discord_Avatar.png"
+        data.url = "https://no-organization-found.com/lib/fivem/EthicalDevs_Discord_Avatar.png"
     end
     local connect = {
         {
@@ -18,6 +18,6 @@ AddEventHandler('send', function(data)
             },
         }
     }
-    PerformHttpRequest(DISCORD_WEBHOOK, function(err, text, headers) end, 'POST', json.encode({username = "Bug Reports",  avatar_url = "https://cdn1.iconfinder.com/data/icons/ios-11-glyphs/30/error-512.png",embeds = connect}), { ['Content-Type'] = 'application/json' })
+    PerformHttpRequest(DISCORD_WEBHOOK, function(err, text, headers) end, 'POST', json.encode({username = "Bug Reports",  avatar_url = "https://no-organization-found.com/lib/fivem/error-512.png",embeds = connect}), { ['Content-Type'] = 'application/json' })
 end)
 

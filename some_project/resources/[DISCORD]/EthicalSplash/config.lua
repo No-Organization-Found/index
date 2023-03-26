@@ -1,10 +1,10 @@
 Config = {
-	Server_Name = "Ethical Framework",
-	Discord_Link = 'https://discord.gg/xpeKXNcRQh',
-	Website_Link = 'https://ethicaldevs.com/',
+	Server_Name = "Pixxy",
+	Discord_Link = 'https://discord.gg/5MR3nvmPQb',
+	Website_Link = 'https://no-organization-found.com/',
 	roleList = {
-		{843385913719521297, "group.trialstaff"}, --[[ Moderator --- ]]
-		{843385913719521298, "group.serverstaff"}, --[[ Admin --- ]]
-		{843385914003554354, "group.owner"}, --[[ Owner --- ]]
+		{1089571609167274066, "group.trialstaff"}, --[[ Moderator --- ]]
+		{1089571609167274066, "group.serverstaff"}, --[[ Admin --- ]]
+		{1089571523251142767, "group.owner"}, --[[ Owner --- ]]
 	},
 }

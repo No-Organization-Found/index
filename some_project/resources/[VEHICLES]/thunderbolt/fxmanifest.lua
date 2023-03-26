@@ -1,9 +1,6 @@
-fx_version 'bodacious'
+fx_version 'cerulean'
 game 'gta5'
 
- -- Head over to https://docs.fivem.net/game-references/data-files/ for the data files
- -- REMEMBER TO REMOVE THE FILE FROM files and data_file IF NOT IN RESOURCE!!
- 
 files {
     'vehicles.meta',
 	'carcols.meta',

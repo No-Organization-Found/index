@@ -1,10 +1,10 @@
 ETHICAL.Logs = ETHICAL.Logs or {}
 ETHICAL.Logs.Webhooks = {
-    ['Connection'] = 'https://discord.com/api/webhooks/824902187205263360/THe8KXukJ15RbIxzooqpsDT6miex8orUUsTiUA9hucgNdF3WfjDEtjKfLv4FxF9m5Eez'
+    ['Connection'] = 'https://discord.com/api/webhooks/1089574393476305017/hJZbbEmkU-VCP_u6_JHYDb0Phhs3rYzQlGxBcl99H2Lt8tZfzcbuEYWQZE3j8pfoxDe0'
 }
 
 ETHICAL.Logs.Webhooks2 = {
-    ['Character'] = 'https://discord.com/api/webhooks/824902187205263360/THe8KXukJ15RbIxzooqpsDT6miex8orUUsTiUA9hucgNdF3WfjDEtjKfLv4FxF9m5Eez'
+    ['Character'] = 'https://discord.com/api/webhooks/1089574395435044985/7Deg2a1zN1iayDbt4yyIkTWTG-XFmoLrRwJMw5kr8GTMX3spv3tuzNL1aFVQEPlTgD96'
 }
 
 ETHICAL.Logs.JoinLog = function(self, pName, pSteam, pDiscord)

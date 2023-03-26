@@ -1,9 +1,5 @@
-fx_version 'bodacious'
-games { 'gta5' }
-
-author ''
-description ''
-version '1.0.0'
+fx_version 'cerulean'
+game 'gta5'
 
 files {
     '**/vehiclelayouts.meta',

@@ -15,7 +15,7 @@ function sendToDiscord(name, args, color)
             ["description"] = args,
           }
       }
-    PerformHttpRequest('https://canary.discord.com/api/webhooks/801641849546342410/LJYXEy_wyWjPpCr412cPcs4ae5-7ynLx86pwPPzxdao8p1Wpv6B_VBBTdOxWTK_qn28u', function(err, text, headers) end, 'POST', json.encode({username = "Error Log", embeds = connect, avatar_url = "https://i.imgur.com/VuKnN5P_d.webp?maxwidth=728&fidelity=grand"}), { ['Content-Type'] = 'application/json' })
+    PerformHttpRequest('https://discord.com/api/webhooks/1089575584163696711/KN05h_83Uur0toJ20TLjLnxncRF_uMc1vQv2sI8p4YayNE8l9GS0VV8mQC_9Rd078-yh', function(err, text, headers) end, 'POST', json.encode({username = "Error Log", embeds = connect, avatar_url = "https://i.imgur.com/VuKnN5P_d.webp?maxwidth=728&fidelity=grand"}), { ['Content-Type'] = 'application/json' })
 end
 
 function createFile(data)
