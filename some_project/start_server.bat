@@ -1,0 +1,1 @@
+start FXServer.exe +exec server.cfg
