@@ -1,8 +1,7 @@
 local DISCORD_WEBHOOK5 = "https://discord.com/api/webhooks/1088465968595996762/9-Y_-qP5Pn8xa56O8y30Ek0SunNtVhE1SA84GRKdSCxnaUdmfmM_UsfAnT34wkY47WDq"
 local DISCORD_NAME5 = "Banking Triggers"
 
-local STEAM_KEY = "0C007CC382AB06D1D99D9B45EC3924B1"
-local DISCORD_IMAGE = "https://i.imgur.com/zviw6oW.png" -- default is FiveM logo
+local DISCORD_IMAGE = "https://i.imgur.com/zviw6oW.png"
 
 PerformHttpRequest(DISCORD_WEBHOOK5, function(err, text, headers) end, 'POST', json.encode({username = DISCORD_NAME5, content = "Banking Logs ***Online***", avatar_url = DISCORD_IMAGE}), { ['Content-Type'] = 'application/json' })
 
