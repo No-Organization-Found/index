@@ -17,7 +17,7 @@ $(document).ready(function(){
     var element = $('<a href="#" class="button2 sans btnHome">Spawn Now</a> <br><br>');  
        
     element.click(function(){  
-      $.post('http://apartments/confirmspawn', JSON.stringify({ }));  
+      $.post('https://apartments/confirmspawn', JSON.stringify({ }));  
     });  
 
     $(element).fadeIn(100);
@@ -34,7 +34,7 @@ $(document).ready(function(){
     var element = $('<div class="button">' + address + '</div> ');  
        
     element.click(function(){  
-      $.post('http://apartments/selectedspawn', JSON.stringify({ tableidentifier: selectedspawn }));  
+      $.post('https://apartments/selectedspawn', JSON.stringify({ tableidentifier: selectedspawn }));  
     });  
 
     $(element).fadeIn(100);

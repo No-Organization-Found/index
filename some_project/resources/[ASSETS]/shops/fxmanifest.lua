@@ -1,14 +1,10 @@
-fx_version 'bodacious'
-games { 'rdr3', 'gta5' }
+fx_version 'cerulean'
+game 'gta5'
 
-author 'whiteknight'
-description ''
-version '1.0.0'
-
-client_script{
+client_scripts {
+	'@ethical-errorlog/client/cl_errorlog.lua',
 	'client.lua',
-	'gui.lua',
-	"@ethical-errorlog/client/cl_errorlog.lua"
+	'gui.lua'
 }
 
 server_script 'server.lua'

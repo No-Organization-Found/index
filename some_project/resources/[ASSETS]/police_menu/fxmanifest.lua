@@ -1,8 +1,6 @@
 fx_version 'cerulean'
 game 'gta5'
-author ''
-description ''
-version '3.0'
+
 client_scripts {
     'config.lua',
     'client/client.lua'

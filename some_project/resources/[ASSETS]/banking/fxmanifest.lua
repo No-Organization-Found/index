@@ -1,9 +1,8 @@
-
-fx_version 'adamant'
-
+fx_version 'cerulean'
 game 'gta5'
 
 ui_page 'html/ui.html'
+
 files {
 	'html/ui.html',
 	'html/pricedown.ttf',
@@ -15,11 +14,6 @@ files {
 	'html/debounce.min.js'
 }
 
+client_scripts {'client/*.lua'}
 
-client_scripts{
-    'client/*.lua',
-}
-
-server_scripts{
-    'server/*.lua',
-}
+server_scripts {'server/*.lua'}

@@ -260,7 +260,7 @@
             document.addEventListener('keyup', function (data) {
                 if (data.which == 27) {
                     SHOW_HIDE(); // hide ui
-                    $.post("http://tab/tablet-bus", JSON.stringify({
+                    $.post("https://tab/tablet-bus", JSON.stringify({
                         hide: true
                     })) // tell lua to unfocus
                 }
@@ -270,7 +270,7 @@
             $('.tab-wrap .dot').click(function () {
                 if (iframe.src == 'about:blank') {
                     SHOW_HIDE(); // hide ui
-                    $.post("http://tab/tablet-bus", JSON.stringify({
+                    $.post("https://tab/tablet-bus", JSON.stringify({
                         hide: true
                     })) // tell lua to unfocus
                 } else {
@@ -295,7 +295,7 @@
             });
 
             // Tell lua the nui loaded
-            $.post("http://tab/tablet-bus", JSON.stringify({
+            $.post("https://tab/tablet-bus", JSON.stringify({
                 load: true
             }))
         });

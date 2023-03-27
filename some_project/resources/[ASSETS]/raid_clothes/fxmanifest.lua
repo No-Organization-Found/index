@@ -1,9 +1,5 @@
 fx_version 'cerulean'
-games { 'gta5' }
-
---[[ dependencies {
-  "np-lib"
-} ]]--
+game 'gta5'
 
 ui_page 'client/html/index.html'
 
@@ -16,23 +12,21 @@ files {
   'client/html/webfonts/*.ttf',
   'client/html/webfonts/*.woff',
   'client/html/webfonts/*.woff2',
-  'client/html/css/*',
+  'client/html/css/*'
 }
 
 client_scripts {
   '@ethical-errorlog/client/cl_errorlog.lua',
   'client/cl_tattooshop.lua',
-  'client/cl_*.lua',
+  'client/cl_*.lua'
 }
 
-shared_script {
-  'shared/sh_*.*',
+shared_scripts {
+  'shared/sh_*.*'
 }
 
-server_scripts {
-  'server.lua',
-}
+server_script 'server.lua'
 
-export "CreateHashList"
-export "GetTatCategs"
-export "GetCustomSkins"
+export 'CreateHashList'
+export 'GetTatCategs'
+export 'GetCustomSkins'
