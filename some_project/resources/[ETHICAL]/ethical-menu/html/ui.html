@@ -30,7 +30,7 @@
                         menuItems: eventData.data,
                         onClick: function(item) {
                             if (item.functionName !== 'undefined') {
-                                $.post('http://' + resourceName + '/triggerAction', JSON.stringify({
+                                $.post('https://' + resourceName + '/triggerAction', JSON.stringify({
                                     action: item.functionName,
                                     parameters: item.functionParameters
                                 }));
@@ -47,7 +47,7 @@
             window.addEventListener("keyup", function onEvent(event) {
                 // Close menu when key is released
                 if (event.key === menuKeybind) {
-                    $.post(`http://${resourceName}/closemenu`, JSON.stringify({}));
+                    $.post(`https://${resourceName}/closemenu`, JSON.stringify({}));
                 }
             });
         });
