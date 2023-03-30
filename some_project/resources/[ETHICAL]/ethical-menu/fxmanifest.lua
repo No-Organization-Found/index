@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-client_script {
+client_scripts {
     'config.lua',
     'client_menu.lua'
 }
@@ -28,5 +28,5 @@ files {
 	'html/webfonts/fa-solid-900.svg',
 	'html/webfonts/fa-solid-900.ttf',
 	'html/webfonts/fa-solid-900.woff',
-	'html/webfonts/fa-solid-900.woff2',
+	'html/webfonts/fa-solid-900.woff2'
 }

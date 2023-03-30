@@ -7,7 +7,7 @@ version '3.0'
 
 dependency "ethical-base"
 
-client_script "@ethical-errorlog/client/cl_errorlog.lua"
+client_script '@ethical-errorlog/client/cl_errorlog.lua'
 
 client_scripts {
     'config.lua',

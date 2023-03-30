@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 games { 'gta5' }
 
-client_script "@ethical-errorlog/client/cl_errorlog.lua"
+client_script '@ethical-errorlog/client/cl_errorlog.lua'
 
 -- INIT --
 server_script "sh_init.lua"

@@ -1,5 +1,5 @@
 fx_version 'cerulean'
-games {'gta5'}
+game 'gta5'
 
 data_file 'VEHICLE_LAYOUTS_FILE' 'vehiclelayouts.meta'
 data_file 'HANDLING_FILE' 'handling.meta'
@@ -12,7 +12,7 @@ files {
   'handling.meta',
   'vehicles.meta',
   'carcols.meta',
-  'carvariations.meta',
+  'carvariations.meta'
 }
 
 client_script 'vehicle_names.lua'

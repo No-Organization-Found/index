@@ -1,12 +1,10 @@
-fx_version 'adamant'
-
-games { 'gta5' }
+fx_version 'cerulean'
+game 'gta5'
 
 ui_page 'ui/index.html'
+
 files {
-	'ui/index.html',
+	'ui/index.html'
 }
 
-client_scripts {
-	'client/cl_xhair.lua',
-}
+client_script 'client/cl_xhair.lua'
