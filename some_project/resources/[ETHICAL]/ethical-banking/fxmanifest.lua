@@ -1,15 +1,10 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author ''
-description ''
-version '3.0'
-
 dependency "ethical-base"
 
-client_script '@ethical-errorlog/client/cl_errorlog.lua'
-
 client_scripts {
+    '@ethical-errorlog/client/cl_errorlog.lua',
     'config.lua',
     'client/client.lua'
 }

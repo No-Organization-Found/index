@@ -1,6 +1,5 @@
 ETHICAL.Core.hasLoaded = false
 
-
 function ETHICAL.Core.Initialize(self)
     Citizen.CreateThread(function()
         while true do

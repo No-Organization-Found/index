@@ -9,6 +9,7 @@ local blips = {
     {id = "hosp6", name = "Hospital", scale = 0.7, color = 2, sprite = 61, x = -676.98, y= 310.68, z= 83.08},
     {id = "hosp7", name = "Hospital", scale = 0.7, color = 2, sprite = 61, x = 1151.21, y= -1529.62, z= 35.37},
     {id = "hosp8", name = "Hospital", scale = 0.7, color = 2, sprite = 61, x = -874.64, y= -307.71, z= 39.58},
+
     {id = "cloth1", name = "Clothing", scale = 0.7, color = 3, sprite = 73, x = 425.236, y=-806.008, z=29.491},
     {id = "cloth2", name = "Clothing", scale = 0.7, color = 3, sprite = 73, x = -162.658, y=-303.397, z=39.733},
     {id = "cloth3", name = "Clothing", scale = 0.7, color = 3, sprite = 73, x = 75.950, y=-1392.891, z=29.376},

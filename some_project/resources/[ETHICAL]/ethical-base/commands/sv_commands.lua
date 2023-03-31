@@ -9,8 +9,6 @@ function ETHICAL.Commands.AddCommand(self, cmd, help, src, callback)
 
     ETHICAL._Commands.AllCommands[cmd] = help 
 
-
-
     if src and src ~= -1 then 
         ETHICAL._Commands.PersonalCommands[src][cmd] = {f = callback, help = help}
         TriggerClientEvent("chat:addSuggestion", src, cmd, help)

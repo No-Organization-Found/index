@@ -1,9 +1,6 @@
-fx_version 'bodacious'
+fx_version 'cerulean'
+game 'gta5'
 
-games {
-    'gta5'
-}
+client_script 'client/cl_density.lua'
 
-client_scripts {
-	'client/*.lua'
-}
+server_script 'server/server.lua'

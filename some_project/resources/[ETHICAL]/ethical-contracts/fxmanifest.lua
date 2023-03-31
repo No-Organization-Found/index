@@ -1,9 +1,8 @@
-resource_manifest_version '77731fab-63ca-442c-a67b-abc70f28dfa5'
-
-
-client_script '@ethical-errorlog/client/cl_errorlog.lua'
+fx_version 'cerulean'
+game 'gta5'
 
 ui_page 'html/ui.html'
+
 files {
 	'html/ui.html',
 	'html/pricedown.ttf',
@@ -14,5 +13,9 @@ files {
 	'html/debounce.min.js'
 }
 
-client_script	'client.lua'
+client_scripts {
+	'@ethical-errorlog/client/cl_errorlog.lua',
+	'client.lua'
+}
+
 server_script 'server.lua'
