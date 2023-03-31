@@ -1,10 +1,4 @@
-fx_version 'adamant'
+fx_version 'cerulean'
 game 'gta5'
 
-client_scripts {
-  'client.lua',
-}
-
-server_scripts {
-  'server.lua',
-}
+client_script 'client.lua'
